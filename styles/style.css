@@ -1,0 +1,114 @@
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2');
+  }
+  :root{
+    --color-primary-light:#FFFFFF;
+    --color-primary-dark:#4A4A4A;
+    --color-blue-light:#2B7FFF;
+    --color-blue-dark:#011C44;
+
+  }
+  /* Base */
+  body{
+    color: var(--color-blue-dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  address{
+    font-style: normal;
+  }
+  ul{ 
+    list-style: none;
+    }
+    /* Button */
+  .button{
+   color: var(--color-primary-light);
+   font-weight: 600;
+   background-color: var(--color-blue-light);
+   border: 2px solid var(--color-blue-light);
+   border-radius: 8px;
+   cursor: pointer;
+  }
+  .button:hover{
+   color: var(--color-blue-dark);
+   background-color: transparent;
+  }
+  /* clinic */
+  .clinic{
+    color: var(--color-blue-dark);
+  }
+  .free-cons{
+    color: var(--color-primary-dark);
+  }
+  /* About-us */
+  .beautyzone{
+    color: var(--color-blue-light);
+    font-size: 140px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .headers{
+    color: var(--color-blue-dark);
+    font-size: 64px;
+    font-weight: 700;
+  }
+  .headers-accent{
+    color: var(--color-blue-light);
+    text-transform: capitalize;
+  }
+  .info-services{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  .services-accent{
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  /* Why us-section */
+  .our-plusses{
+    text-align: center;
+  }
+  /* last part */
+  .free-call{
+    color: var(--color-primary-light);
+    font-size: 22px;
+    font-weight: 600;
+    background-color: var(--color-blue-dark);
+  }
+  .free-inf{
+    color: var(--color-blue-light);
+  }
+  /* Links */
+  .link{
+   color: var(--color-blue-dark);
+   text-decoration: none;
+  }
+  .link:hover{
+   color: var(--color-blue-light);
+  }
+  .address-link{
+    color: var(--color-blue-dark);
+    font-style: 16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .address-link:hover{
+    color: var(--color-blue-light);
+  }
+  .address-copyright{
+    font-size: 13px; 
+  }
